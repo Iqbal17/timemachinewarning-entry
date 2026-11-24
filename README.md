@@ -8,9 +8,9 @@ Entry for the [make.fun bounty](https://make.fun/bounty/u-eager-stork-81-9647-fu
 
 ## The label
 
-> WARNING: Do not kill your grandfather. Warranty void if you were never born.
+> WARNING: Never kill your grandfather. Warranty void if you were never born.
 
-76 characters, one line.
+75 characters, one line.
 
 ## How it runs
 

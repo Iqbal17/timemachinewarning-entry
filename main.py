@@ -8,8 +8,8 @@ stranded ancestor — into the joke instead of naming it flatly; (3) saves the
 surprise for the last few words; (4) keeps a straight face, phrased like a
 genuine safety notice; (5) wastes no words.
 
-THE LINE (76 characters):
-    WARNING: Do not kill your grandfather. Warranty void if you were never born.
+THE LINE (75 characters):
+    WARNING: Never kill your grandfather. Warranty void if you were never born.
 
 DECISION RECORD — candidates weighed:
 
@@ -66,12 +66,76 @@ Why it wins: it is the only candidate where the hazard IS the joke (the
 paradox, delivered as a warranty exclusion), the surprise is saved for the
 end, and the voice never breaks character — it reads like something
 printed on the box.
+
+REVISION PASS (24 Nov 2026):
+
+Honest critique of the submitted line. Strengths that survived every
+challenge: the warranty clause is the driest official language there is,
+and it turns the paradox itself into the joke instead of explaining it;
+"if you were never born" lands the surprise in the last four words; the
+second-person "you" is the emotional hook — the label addresses a reader
+who does not exist. Real weaknesses found: (a) the setup, "Do not kill
+your grandfather", spends two words ("Do not") on a prohibition a label
+states in one; (b) the grandfather paradox is the most famous time-travel
+joke in the world, so the line lives or dies on the warranty frame, not
+the setup — the frame has to carry the whole laugh.
+
+Fresh alternatives weighed and cut:
+
+A. "WARNING: Do not kill your grandfather. He is the only spare part we
+   cannot replace." (79 chars)
+   Genuinely funny — the grandfather as an irreplaceable part — but the
+   joke is about the parts inventory, and the paradox (your own
+   non-existence) is only implied, never the joke itself. Loses on
+   criterion 2 to the warranty version, where the paradox IS the joke.
+
+B. "WARNING: Do not kill your grandfather. Your birth certificate is
+   also void." (74 chars)
+   The "also" does clever work (it implies the warranty is already void)
+   and a voided birth certificate is a fresher object than a warranty.
+   But it drops the word "warranty" entirely, and the warranty clause is
+   the label frame — without it the line is a quip, not a product notice.
+   Loses on criterion 4; kept in mind, not used.
+
+C. "WARNING: Do not kill your grandfather. This voids your warranty and
+   your birth certificate." (84 chars)
+   Two bureaucratic objects, punch on "birth certificate" — but it is two
+   jokes in one sentence, the second one better than the first, which
+   means the first is dead weight. Loses on criterion 5. The shorter
+   birth-certificate variant (B) was the salvage of this idea, and it
+   lost for the reason above.
+
+D. "Warranty void if never born." (tightening the second sentence, 67
+   chars total)
+   Snappier, and the missing "you were" even mirrors the reader's
+   non-existence — but dropping the second person drops the hook. The
+   label has to talk to somebody to void them. Rejected; "if you were
+   never born" stays.
+
+E. "Warranty void if you never existed." (76 chars total)
+   Colder and more absolute than "were never born", but "born" is the
+   concrete event and the more vivid image; "existed" is philosophy, not
+   a label. Rejected.
+
+The one change made — before/after:
+
+BEFORE: "WARNING: Do not kill your grandfather. Warranty void if you were
+never born." (76 chars)
+AFTER:  "WARNING: Never kill your grandfather. Warranty void if you were
+never born." (75 chars)
+
+"Do not" became "Never": one word does the work of two, the rhythm
+snaps harder ("Never kill" is a real warning-label cadence — "Never
+operate…", "Never mix…"), and nothing is lost, since "Never" is the
+same absolute prohibition. The rest of the line survived every challenge
+above, so it stands unchanged: the warranty frame, the "you", and the
+last-four-words punch are all doing work no alternative did better.
 """
 
 import os
 import sys
 
-LINE = "WARNING: Do not kill your grandfather. Warranty void if you were never born."
+LINE = "WARNING: Never kill your grandfather. Warranty void if you were never born."
 
 
 def main() -> None:
